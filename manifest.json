@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Feedly Max Width Modifier",
+    "version": "1.0",
+    "description": "Changes the max-width property for containers on feedly.com.",
+    "icons": {
+      "48": "icon-feedly.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://feedly.com/*"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  

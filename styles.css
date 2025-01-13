@@ -1,0 +1,6 @@
+@media (min-width: 988px) {
+    .fx .container {
+      max-width: 10000px !important;
+    }
+  }
+  
